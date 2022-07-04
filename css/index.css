@@ -25,6 +25,7 @@ p#circleText {
 .circle {
   border: 40px solid #d7e1e9;
   background-color: #d7e1e9;
+  opacity: 70%;
   width: 55px;
   height: 15px;
   border-radius: 50%;
