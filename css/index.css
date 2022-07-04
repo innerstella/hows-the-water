@@ -16,11 +16,6 @@
   top: 50px;
 }
 
-.circle_menu {
-  display: flex;
-  justify-content: space-around;
-  max-width: 80%;
-}
 p#circleText {
   background-color: transparent;
   color: black;
@@ -36,6 +31,7 @@ p#circleText {
   display: table;
   position: relative;
   top: 100px;
+  margin: 20px;
 }
 
 p#title {
