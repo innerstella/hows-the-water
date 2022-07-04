@@ -16,10 +16,14 @@
   top: 50px;
 }
 
+.circle_menu {
+  display: flex;
+  justify-content: space-around;
+}
 p#circleText {
   background-color: transparent;
   color: black;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .circle {
@@ -31,15 +35,6 @@ p#circleText {
   display: table;
   position: relative;
   top: 100px;
-}
-
-#faucet {
-  position: relative;
-  z-index: 2;
-  display: table-cell;
-  vertical-align: middle;
-  background-color: #d7e1e9;
-  color: black;
 }
 
 p#title {
