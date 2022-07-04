@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/sub.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="http://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css"
+      rel="stylesheet"
+    />
+    <title>퐁당퐁당</title>
+  </head>
+  <body>
+    <center>
+      <div class="menu">
+        <a href="javascript:window.history.back();"
+          ><span class="material-symbols-outlined">
+            keyboard_backspace
+          </span></a
+        >
+        <a href="../index.html"><span class="menu">HOME</span></a>
+        <a href="./book.html"
+          ><span class="material-symbols-outlined"> menu_book </span></a
+        >
+      </div>
+
+      <div class="title">
+        <span id="faucet" class="material-symbols-outlined"> faucet </span>
+        <p id="title">수돗물</p>
+      </div>
+
+      <div class="search">
+        <p id="info">수돗물의 품질을 알아보고 싶은 지역을 선택해주세요</p>
+        <form action="./detail.html">
+          <select id="seoul" onchange="changeVal()" required>
+            <option value="강남구">강남구</option>
+            <option value="강동구">강동구</option>
+            <option value="강북구">강북구</option>
+            <option value="강서구">강서구</option>
+            <option value="관악구">관악구</option>
+            <option value="광진구">광진구</option>
+            <option value="구로구">구로구</option>
+            <option value="금천구">금천구</option>
+            <option value="노원구">노원구</option>
+            <option value="도봉구">도봉구</option>
+            <option value="동대문구">동대문구</option>
+            <option value="동작구">동작구</option>
+            <option value="마포구">마포구</option>
+            <option value="서대문구">서대문구</option>
+            <option value="서초구">서초구</option>
+            <option value="성동구">성동구</option>
+            <option value="성북구">성북구</option>
+            <option value="송파구">송파구</option>
+            <option value="양천구">양천구</option>
+            <option value="영등포구">영등포구</option>
+            <option value="용산구">용산구</option>
+            <option value="은평구">은평구</option>
+            <option value="종로구">종로구</option>
+            <option value="중구">중구</option>
+            <option value="중랑구">중랑구</option>
+          </select>
+          <input type="submit" value="🔍" />
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
+<script src="./js/sub.js"></script>

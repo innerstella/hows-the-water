@@ -1,0 +1,61 @@
+* {
+  font-family: "SUIT", sans-serif;
+  background-color: #0186ba;
+}
+#title {
+  position: relative;
+  top: 50px;
+}
+#content {
+  position: relative;
+  top: 90px;
+  max-width: 70%;
+}
+hr {
+  width: 30%;
+  height: 1.5px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  border: none;
+}
+p#title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 20px;
+}
+p.sector {
+  font-size: large;
+  color: white;
+}
+p.text {
+  font-size: small;
+  color: white;
+  font-weight: 200;
+}
+li {
+  font-size: small;
+  color: white;
+  font-weight: 200;
+}
+/* 메뉴바 */
+.menu {
+  background-color: #d7e1e9;
+  padding: 5px 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+span.menu {
+  background-color: transparent;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+}
