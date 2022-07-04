@@ -19,6 +19,7 @@
 .circle_menu {
   display: flex;
   justify-content: space-around;
+  max-width: 80%;
 }
 p#circleText {
   background-color: transparent;
