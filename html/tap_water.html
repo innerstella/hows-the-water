@@ -28,6 +28,7 @@
           ><span class="material-symbols-outlined"> menu_book </span></a
         >
       </div>
+
       <hr id="menu" />
 
       <div class="title">
@@ -39,6 +40,7 @@
         <p id="info">수돗물의 품질을 알아보고 싶은 지역을 선택해주세요</p>
         <form action="./detail.html">
           <select id="seoul" onchange="changeVal()" required>
+            <option value="xx">선택</option>
             <option value="강남구">강남구</option>
             <option value="강동구">강동구</option>
             <option value="강북구">강북구</option>
@@ -65,7 +67,7 @@
             <option value="중구">중구</option>
             <option value="중랑구">중랑구</option>
           </select>
-          <input type="submit" value="🔍" />
+          <input id="select" type="submit" value="🔍" />
         </form>
       </div>
     </center>
