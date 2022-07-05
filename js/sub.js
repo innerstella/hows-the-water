@@ -2,7 +2,7 @@
 let loca = document.getElementById("seoul").value;
 // let fileName = "../gangnamGu.json";
 // sessionStorage.setItem("location", locationSeoul);
-// sessionStorage.setItem("fileName", fileName);
+sessionStorage.setItem("default", loca);
 
 // console.log(locationSeoul, fileName);
 

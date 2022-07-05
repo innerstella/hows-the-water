@@ -43,3 +43,9 @@ if (loc === "xx") {
   alert("지역을 선택하세요");
   window.history.back();
 }
+
+let defaultLoc = sessionStorage.getItem("default");
+if (defaultLoc === "xx") {
+  alert("지역을 선택하세요");
+  window.history.back();
+}
