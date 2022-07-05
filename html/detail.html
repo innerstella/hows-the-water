@@ -12,13 +12,13 @@
 <body>
 <center>
     <div class="menu">
-        <a href="javascript:window.history.back();"
+        <a class='menu' href="javascript:window.history.back();"
           ><span class="material-symbols-outlined">
             keyboard_backspace
           </span></a
         >
-        <a href="../index.html"><span class="menu">HOME</span></a>
-        <a href="./book.html"
+        <a class='menu' href="../index.html"><span class="menu">HOME</span></a>
+        <a class='menu' href="./book.html"
           ><span class="material-symbols-outlined"> menu_book </span></a
         >
       </div>
@@ -26,18 +26,84 @@
 
     <div class="title">
         <p id="loc"></p>
+        <p id="info">클릭 시 각 물질의 상세 설명 페이지로 이동합니다</p>
     </div>
-    <br><br><br><br><br><br><br>
-    <span class="factor1">
-        <span id="val_a"></span>
-    </span>
-    <span class="factor2">
-        <span id="val_b"></sp>
-    </span>
-    <span class="factor3">
-        <span id="val_c"></span>
-    </div>
+    <br><br><br><br>
 
+    <div id="box">
+      <a id='box' href="./general_bacteria.html">
+        <div class="container">
+        <p id='name'>일반 세균</p>
+        <p id = 'val_1' class="box"></p>
+        <p id='criteria'>100CFU/mL</p>
+      </div></a>
+      <a id='box' href="residual_chlorine.html">
+        <div class="container">
+          <p id='name'>잔류 염소</p>
+          <p id = 'val_2' class="box"></p>
+          <p id='criteria'>4mg/L</p>
+      </div></a>
+      <a id="box" href="./evaporation_residue.html">
+      <div class="container">
+          <p id='name'>증발잔류물</p>
+          <p id = 'val_3' class="box"></p>
+          <p id='criteria'>500mg/L</p>
+      </div></a>
+      <a id="box" href="./cl.html">
+      <div class="container">
+        <p id='name'>염소 이온</p>
+        <p id = 'val_4' class="box"></p>
+        <p id='criteria'>250mg/L</p>
+      </div></a>
+      <a id="box" href="./s.html">
+      <div class="container">
+        <p id='name'>황산 이온</p>
+        <p id = 'val_5' class="box"></p>
+        <p id='criteria'>200mg/L</p>
+      </div></a>
+      <a id="box" href="./evaporation_residue.html">
+      <div class="container">
+        <p id='name'>질산성 질소</p>
+        <p id = 'val_6' class="box"></p>
+        <p id='criteria'>10mg/L</p>
+      </div></a>
+      <a id="box" href="./fe.html">
+      <div class="container">
+        <p id='name'>철</p>
+        <p id = 'val_7' class="box"></p>
+        <p id='criteria'>0.3mg/L</p>
+      </div></a>
+      <a id="box" href="./mn.html">
+      <div class="container">
+        <p id='name'>망간</p>
+        <p id = 'val_8' class="box"></p>
+        <p id='criteria'>0.05mg/L</p>
+      </div></a>
+      <a id="box" href="./f.html">
+      <div class="container">
+        <p id='name'>불소</p>
+        <p id = 'val_9' class="box"></p>
+        <p id='criteria'>1.5mg/L</p>
+      </div></a>
+      <a id="box" href="./cu.html">
+      <div class="container">
+        <p id='name'>구리</p>
+        <p id = 'val_10' class="box"></p>
+        <p id='criteria'>1mg/L</p>
+      </div></a>
+      <a id="box" href="./zn.html">
+      <div class="container">
+        <p id='name'>아연</p>
+        <p id = 'val_11' class="box"></p>
+        <p id='criteria'>3mg/L</p>
+      </div></a>
+      <a id="box" href="./ammonium_nitrogen.html">
+      <div class="container">
+        <p id='name'>암모니아성 질소</p>
+        <p id = 'val_12' class="box"></p>
+        <p id='criteria'>10mg/L</p>
+      </div></a>
+    </div>
     <br><br><br>
    
 </center>

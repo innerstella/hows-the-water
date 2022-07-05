@@ -23,12 +23,12 @@ p#circleText {
 }
 
 .circle {
-  border: 40px solid #d7e1e9;
+  border: 15px solid #d7e1e9;
   background-color: #d7e1e9;
-  width: 55px;
-  height: 15px;
-  border-radius: 50%;
-  display: table;
+  width: 40%;
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
   position: relative;
   top: 100px;
   margin: 20px;
@@ -38,6 +38,19 @@ p#title {
   color: #ffffff;
   font-weight: bold;
   font-size: x-large;
+  margin-bottom: 1px;
+}
+p#info {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: small;
+  margin: 8px;
+  position: relative;
+  top: 10px;
+}
+
+.info {
+  max-width: 80%;
 }
 
 /* 메뉴바 */

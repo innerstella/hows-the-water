@@ -24,7 +24,7 @@ span.menu {
   background-color: transparent;
   color: white;
 }
-a {
+a.menu {
   text-decoration: none;
   color: white;
   background-color: transparent;
@@ -38,6 +38,7 @@ hr#menu {
   border: none;
 }
 
+/* 타이틀 */
 .title {
   position: relative;
   top: 50px;
@@ -47,6 +48,7 @@ p#loc {
   color: #ffffff;
   font-weight: bold;
   font-size: x-large;
+  margin-bottom: 15px;
 }
 
 p#home {
@@ -57,42 +59,44 @@ p#home {
   width: 60px;
   font-size: small;
 }
-
-span#val_a {
-  background-color: transparent;
-  vertical-align: middle;
-  padding: var(--borderA);
-  width: var(--borderA);
-  height: var(--borderA);
-  border: solid #ebc68c;
-  background-color: #ebc68c;
-  border-radius: 50%;
-  /* position: relative; */
-  /* left: -30%; */
+p#info {
+  font-size: small;
+  color: white;
+  margin-top: 3px;
+  font-weight: 300;
 }
 
-span#val_b {
-  background-color: transparent;
-  vertical-align: middle;
-  padding: var(--borderB);
-  width: var(--borderB);
-  height: var(--borderB);
-  border: solid #e3b172;
-  background-color: #e3b172;
-  border-radius: 50%;
-  position: relative;
-  margin: 20px;
+/* box */
+#box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 90%;
 }
 
-span#val_c {
+.container {
+  background-color: aliceblue;
+  width: 90px;
+  margin: 5px;
+}
+
+p.box {
+  font-size: small;
   background-color: transparent;
-  vertical-align: middle;
-  width: var(--borderC);
-  padding: var(--borderC);
-  height: var(--borderC);
-  border: solid #dac1a1;
-  background-color: #dac1a1;
-  border-radius: 50%;
-  /* position: relative; */
-  /* left: 30%; */
+}
+
+p#name {
+  font-size: x-small;
+  background-color: transparent;
+}
+
+p#criteria {
+  font-size: xx-small;
+  background-color: transparent;
+}
+
+a#box {
+  text-decoration: none;
+  color: black;
 }

@@ -1,7 +1,16 @@
 [
-    {
-      "a": 50,
-      "b": 30,
-      "c": 40
-    }
+  {
+    "general_bacteria": 1,
+    "residual_chlorine": 2,
+    "evaporation_residue": 3,
+    "cl": 4,
+    "s": 5,
+    "nitrate_nitrogen": 6,
+    "fe": 7,
+    "mn": 8,
+    "f": 9,
+    "cu": 10,
+    "zn": 11,
+    "ammonium_nitrogen": 12
+  }
 ]

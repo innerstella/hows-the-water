@@ -42,7 +42,7 @@ a#block {
 
 .block {
   position: relative;
-  top: 80px;
+  top: 60px;
   max-width: 80%;
   display: flex;
   align-content: space-between;
@@ -75,15 +75,20 @@ p#title {
   top: 50px;
 }
 
+/* 인포 */
 p#info {
   color: #ffffff;
   font-weight: 200;
   font-size: small;
   margin: 8px;
   position: relative;
-  top: 50px;
+  top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .info {
-  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
