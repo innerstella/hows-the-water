@@ -5,7 +5,7 @@
 
 /* 메뉴바 */
 .menu {
-  background-color: #d7e1e9;
+  /* background-color: #d7e1e9; */
   padding: 5px 1px;
   display: flex;
   justify-content: space-around;
@@ -15,15 +15,25 @@ span.menu {
   background-color: transparent;
 }
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 48;
   background-color: transparent;
+  color: white;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   background-color: transparent;
 }
+hr#menu {
+  /* width: 160px; */
+  height: 1.5px;
+  background-color: white;
+  position: relative;
+  /* top: 50px; */
+  border: none;
+}
 
+/* block */
 a#block {
   text-decoration: none;
   color: white;
@@ -33,18 +43,23 @@ a#block {
 .block {
   position: relative;
   top: 80px;
-  max-width: 70%;
+  max-width: 60%;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
 }
-/* block */
+
 button {
   color: rgb(255, 255, 255) !important;
   font-size: 15px;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   border: 1px white solid;
 }
-hr {
-  width: 30%;
+
+/* 제목 및 설명 */
+hr#title {
+  width: 160px;
   height: 1.5px;
   background-color: white;
   position: relative;
@@ -70,5 +85,5 @@ p#info {
 }
 
 .info {
-  max-width: 80%;
+  max-width: 60%;
 }
