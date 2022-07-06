@@ -23,7 +23,9 @@
             keyboard_backspace
           </span></a
         >
-        <a href="../index.html"><span class="menu">HOME</span></a>
+        <a href="../index.html"
+          ><span class="material-symbols-outlined"> home </span></a
+        >
         <a href="./book.html"
           ><span class="material-symbols-outlined"> menu_book </span></a
         >
@@ -34,16 +36,16 @@
       <div class="title">
         <span id="faucet" class="material-symbols-outlined"> faucet </span>
         <p id="title">수돗물</p>
+        <p id="info">수돗물의 품질을 알아보고 싶은 지역을 선택해주세요</p>
       </div>
 
       <div class="search">
-        <p id="info">수돗물의 품질을 알아보고 싶은 지역을 선택해주세요</p>
         <form action="./detail.html">
           <select id="seoul" onchange="changeVal()" required>
             <option value="xx">선택</option>
             <option value="강남구">강남구</option>
             <option value="강동구">강동구</option>
-            <!-- <option value="강북구">강북구</option>
+            <option value="강북구">강북구</option>
             <option value="강서구">강서구</option>
             <option value="관악구">관악구</option>
             <option value="광진구">광진구</option>
@@ -65,7 +67,7 @@
             <option value="은평구">은평구</option>
             <option value="종로구">종로구</option>
             <option value="중구">중구</option>
-            <option value="중랑구">중랑구</option> -->
+            <option value="중랑구">중랑구</option>
           </select>
           <input id="select" type="submit" value="🔍" />
         </form>

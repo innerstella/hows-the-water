@@ -19,10 +19,57 @@ function changeVal() {
 
   let fileName = "";
   if (locationSeoul === "강남구") {
-    fileName = "../gangnamGu.json";
+    fileName = "../kangnamGu.json";
   } else if (locationSeoul === "강동구") {
-    fileName = "../dummy.json";
+    fileName = "../gangdongGu.json";
+  } else if (locationSeoul === "강북구") {
+    fileName = "../kangbookGu.json";
+  } else if (locationSeoul === "강서구") {
+    fileName = "../kangseoGu.json";
+  } else if (locationSeoul === "관악구") {
+    fileName = "../kwanakGu.json";
+  } else if (locationSeoul === "광진구") {
+    fileName = "../gwangjinGu.json";
+  } else if (locationSeoul === "구로구") {
+    fileName = "../guroGu.json";
+  } else if (locationSeoul === "금천구") {
+    fileName = "../geumchunGu.json";
+  } else if (locationSeoul === "노원구") {
+    fileName = "../nowonGu.json";
+  } else if (locationSeoul === "도봉구") {
+    fileName = "../dobongGu.json";
+  } else if (locationSeoul === "동대문구") {
+    fileName = "../dongdaemunGu.json";
+  } else if (locationSeoul === "동작구") {
+    fileName = "../dongjakGu.json";
+  } else if (locationSeoul === "마포구") {
+    fileName = "../mapoGu.json";
+  } else if (locationSeoul === "서대문구") {
+    fileName = "../seodaemunGu.json";
+  } else if (locationSeoul === "서초구") {
+    fileName = "../seochoGu.json";
+  } else if (locationSeoul === "성동구") {
+    fileName = "../seongdongGu1.json";
+  } else if (locationSeoul === "성북구") {
+    fileName = "../seongbookGu.json";
+  } else if (locationSeoul === "송파구") {
+    fileName = "../songpaGu.json";
+  } else if (locationSeoul === "양천구") {
+    fileName = "../yangchunGu.json";
+  } else if (locationSeoul === "영등포구") {
+    fileName = "../yeongdeungpoGu.json";
+  } else if (locationSeoul === "용산구") {
+    fileName = "../yongsanGu.json";
+  } else if (locationSeoul === "은평구") {
+    fileName = "../eunpyeongGu.json";
+  } else if (locationSeoul === "종로구") {
+    fileName = "../jongroGu.json";
+  } else if (locationSeoul === "중구") {
+    fileName = "../joongGu.json";
+  } else if (locationSeoul === "중랑구") {
+    fileName = "../joongrangGu.json";
   }
+
   console.log(fileName);
   // sessionStorage.setItem("fileName", fileName);
 
