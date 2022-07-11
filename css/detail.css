@@ -62,7 +62,7 @@ p#home {
 p#info {
   font-size: small;
   color: white;
-  margin-top: 3px;
+  margin: 3px;
   font-weight: 200;
 }
 
@@ -83,6 +83,7 @@ p#info {
 
 p.box {
   font-size: small;
+  font-weight: 700;
   background-color: transparent;
 }
 

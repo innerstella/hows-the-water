@@ -80,3 +80,21 @@ input {
   border: 1px solid white;
   color: white;
 }
+/* 인포 */
+p#bottom {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: small;
+  margin: 8px;
+  position: relative;
+  top: 240px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
