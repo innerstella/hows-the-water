@@ -43,14 +43,14 @@ a#block {
 .block {
   position: relative;
   top: 60px;
-  max-width: 70%;
+  max-width: 350px;
   display: flex;
   justify-content: space-between;
 }
 .block_last {
   position: relative;
   top: 60px;
-  max-width: 70%;
+  max-width: 350px;
   display: flex;
   justify-content: flex-start;
 }
@@ -59,7 +59,7 @@ button {
   color: rgb(255, 255, 255) !important;
   font-size: 15px;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 7px;
   border: 1px white solid;
 }
 
