@@ -52,7 +52,7 @@ a#block {
   top: 60px;
   max-width: 350px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 button {
