@@ -3,31 +3,69 @@ let loc = sessionStorage.getItem("location");
 document.getElementById("loc").innerText = loc + "의 수돗물";
 
 //json 값 가져오기
-let val_A = sessionStorage.getItem("val_a");
-let val_B = sessionStorage.getItem("val_b");
-let val_C = sessionStorage.getItem("val_c");
-let val_D = sessionStorage.getItem("val_d");
-let val_E = sessionStorage.getItem("val_e");
-let val_F = sessionStorage.getItem("val_f");
-let val_G = sessionStorage.getItem("val_g");
-let val_H = sessionStorage.getItem("val_h");
-let val_I = sessionStorage.getItem("val_i");
-let val_J = sessionStorage.getItem("val_j");
-let val_K = sessionStorage.getItem("val_k");
-let val_L = sessionStorage.getItem("val_l");
+//ratio
+let general_bacteria = sessionStorage.getItem("general_bacteria");
+let residual_chlorine = sessionStorage.getItem("residual_chlorine");
+let evaporation_residue = sessionStorage.getItem("evaporation_residue");
+let cl = sessionStorage.getItem("cl");
+let s = sessionStorage.getItem("s");
+let nitrate_nitrogen = sessionStorage.getItem("nitrate_nitrogen");
+let fe = sessionStorage.getItem("fe");
+let mn = sessionStorage.getItem("mn");
+let f = sessionStorage.getItem("f");
+let cu = sessionStorage.getItem("cu");
+let zn = sessionStorage.getItem("zn");
+let ammonium_nitrogen = sessionStorage.getItem("ammonium_nitrogen");
 
-document.querySelector("#val_1").innerText = val_A;
-document.querySelector("#val_2").innerText = val_B;
-document.querySelector("#val_3").innerText = val_C;
-document.querySelector("#val_4").innerText = val_D;
-document.querySelector("#val_5").innerText = val_E;
-document.querySelector("#val_6").innerText = val_F;
-document.querySelector("#val_7").innerText = val_G;
-document.querySelector("#val_8").innerText = val_H;
-document.querySelector("#val_9").innerText = val_I;
-document.querySelector("#val_10").innerText = val_J;
-document.querySelector("#val_11").innerText = val_K;
-document.querySelector("#val_12").innerText = val_L;
+document.querySelector("#general_bacteria").innerText =
+  general_bacteria + " 점";
+document.querySelector("#residual_chlorine").innerText =
+  residual_chlorine + " 점";
+document.querySelector("#evaporation_residue").innerText =
+  evaporation_residue + " 점";
+document.querySelector("#cl").innerText = cl + " 점";
+document.querySelector("#s").innerText = s + " 점";
+document.querySelector("#nitrate_nitrogen").innerText =
+  nitrate_nitrogen + " 점";
+document.querySelector("#fe").innerText = fe + " 점";
+document.querySelector("#mn").innerText = mn + " 점";
+document.querySelector("#f").innerText = f + " 점";
+document.querySelector("#cu").innerText = cu + " 점";
+document.querySelector("#zn").innerText = zn + " 점";
+document.querySelector("#ammonium_nitrogen").innerText =
+  ammonium_nitrogen + " 점";
+
+//value
+let v_general_bacteria = sessionStorage.getItem("v_general_bacteria");
+let v_residual_chlorine = sessionStorage.getItem("v_residual_chlorine");
+let v_evaporation_residue = sessionStorage.getItem("v_evaporation_residue");
+let v_cl = sessionStorage.getItem("v_cl");
+let v_s = sessionStorage.getItem("v_s");
+let v_nitrate_nitrogen = sessionStorage.getItem("v_nitrate_nitrogen");
+let v_fe = sessionStorage.getItem("v_fe");
+let v_mn = sessionStorage.getItem("v_mn");
+let v_f = sessionStorage.getItem("v_f");
+let v_cu = sessionStorage.getItem("v_cu");
+let v_zn = sessionStorage.getItem("v_zn");
+let v_ammonium_nitrogen = sessionStorage.getItem("v_ammonium_nitrogen");
+
+document.querySelector(".general_bacteria").innerText =
+  v_general_bacteria + " (100CFU/mL)";
+document.querySelector(".residual_chlorine").innerText =
+  v_residual_chlorine + " (4mg/L)";
+document.querySelector(".evaporation_residue").innerText =
+  v_evaporation_residue + " (500mg/L)";
+document.querySelector(".cl").innerText = v_cl + " (250mg/L)";
+document.querySelector(".s").innerText = v_s + " (200mg/L)";
+document.querySelector(".nitrate_nitrogen").innerText =
+  v_nitrate_nitrogen + " (10mg/L)";
+document.querySelector(".fe").innerText = v_fe + " (0.3mg/L)";
+document.querySelector(".mn").innerText = v_mn + " (0.05mg/L)";
+document.querySelector(".f").innerText = v_f + " (1.5mg/L)";
+document.querySelector(".cu").innerText = v_cu + " (1mg/L)";
+document.querySelector(".zn").innerText = v_zn + " (3mg/L)";
+document.querySelector(".ammonium_nitrogen").innerText =
+  v_ammonium_nitrogen + " (10mg/L)";
 
 let fileName = sessionStorage.getItem("fileName");
 console.log(fileName);

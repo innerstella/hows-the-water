@@ -1,0 +1,30 @@
+[
+  {
+    "general_bacteria": 100,
+    "ammonium_nitrogen": 100,
+    "cu": 100,
+    "zn": 100,
+    "cl": 90.505,
+    "fe": 100,
+    "mn": 100,
+    "residual_chlorine": 97.3125,
+    "f": 100,
+    "nitrate_nitrogen": 79.125,
+    "evaporation_residue": 73.925,
+    "s": 92.438
+  },
+  {
+    "general_bacteria": 0,
+    "ammonium_nitrogen": 0,
+    "cu": 0,
+    "zn": 0,
+    "cl": 23.7375,
+    "fe": 0,
+    "mn": 0,
+    "residual_chlorine": 0.5075,
+    "f": 0,
+    "nitrate_nitrogen": 2.0875,
+    "evaporation_residue": 130.375,
+    "s": 15.125
+  }
+]

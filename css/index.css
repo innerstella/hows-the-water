@@ -21,13 +21,13 @@ p#circleText {
   color: black;
   font-size: small;
   font-weight: 400;
-  border: 10px solid #d7e1e9;
+  border: 15px solid #d7e1e9;
   background-color: #d7e1e9;
   width: 50%;
   display: flex;
   justify-content: center;
   position: relative;
-  top: 80px;
+  top: 100px;
   margin: 15px;
 }
 
