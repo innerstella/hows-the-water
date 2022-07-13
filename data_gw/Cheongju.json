@@ -1,0 +1,18 @@
+[
+    {
+        "arsenic" : 99,
+        "nitrate_nitrogen" : 85.292,
+        "tetrachloroethene" : 100,
+        "trichloroethene" : 100,
+        "cadmium" : 100,
+        "mercury" : 100
+    },
+    {
+        "arsenic" : 0,
+        "nitrate_nitrogen" : 2.942,
+        "tetrachloroethene" : 0,
+        "trichloroethene" : 0,
+        "cadmium" : 0,
+        "mercury" : 0
+    }
+]
