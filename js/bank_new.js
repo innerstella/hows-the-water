@@ -14,7 +14,8 @@ function func1() {
   //유저가 입력한 가뭄지수 값 받아오기
   let index = sessionStorage.getItem("droughtIndex");
   //가뭄지수-하천수위 계산 (정아한테 받으면 수정 필요!)
-  height = height = Math.round(height);
+  height = 3.940709 * index + 125.255274;
+  height = Math.round(height);
   //계산된 하천수위 값 저장
   sessionStorage.setItem("height", height);
   //하천수위-저수용량 함수 실행
