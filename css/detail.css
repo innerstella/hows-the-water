@@ -101,3 +101,25 @@ a#box {
   text-decoration: none;
   color: black;
 }
+
+/*값*/
+.result {
+  position: relative;
+  top: 120px;
+}
+
+li#droughtIndex {
+  color: white;
+  font-size: medium;
+  margin: 2%;
+}
+li#height {
+  color: white;
+  font-size: medium;
+  margin: 2%;
+}
+li#bank {
+  color: white;
+  font-size: medium;
+  margin: 2%;
+}
